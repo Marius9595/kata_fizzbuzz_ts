@@ -1,6 +1,10 @@
-# Template - Testing Sostenible con TypeScript
+# FIZZBUZZ KATA
 
-Plantilla base para practicar las katas del curso o para empezar un proyecto nuevo.
+## Description
+
+The program of this kata has to meet the following requirments:
+* A number is fizz if it is divisible by 3 or if it has a 3 in it
+* A number is buzz if it is divisible by 5 or if it has a 5 in it
 
 Incluye:
 * TypeScript
@@ -12,14 +16,3 @@ Incluye:
 ## Instrucciones
 * `npm install`
 * `npm test`
-
-Más información sobre el curso en [testingsostenible.com](https://testingsostenible.com).
-
-![Testing Sostenible con TypeScript](cover.png)
-
-### ESLint
-[TypeScript ESLint Rules](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin)
-
-### Husky hooks
-* Pre-commit: Execute npm analize (tsc + eslint --fix)
-* Pre-push: Execute test
