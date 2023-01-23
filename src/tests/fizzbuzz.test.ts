@@ -48,4 +48,9 @@ describe('Fizzbuzz should', () => {
 		const result = fizbuzz(30);
 		expect(result).toBe('fizzbuzz');
 	});
+
+	it('not convert numbers that are not divisible by 5 or 3', () => {
+		const result = fizbuzz(7);
+		expect(result).toBe(7);
+	});
 });
