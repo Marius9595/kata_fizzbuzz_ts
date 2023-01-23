@@ -1,1 +1,1 @@
-export const fizbuzz = () => null;
+export const fizbuzz = (number:number) => null;

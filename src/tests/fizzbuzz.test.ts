@@ -14,5 +14,8 @@ Examples to test (in order)
  */
 
 describe('Fizzbuzz should', () => {
-	it('');
+	it('do nothing with number 1', () => {
+		const result = fizbuzz(1);
+		expect(result).toBe(1);
+	});
 });
