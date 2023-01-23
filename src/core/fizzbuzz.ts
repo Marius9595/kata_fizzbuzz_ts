@@ -1,5 +1,5 @@
 export const fizbuzz = (number: number) => {
-	if (number == 15) {
+	if (number % 3 == 0 && number % 5 == 0) {
 		return 'fizzbuzz';
 	}
 	if (number % 3 == 0) {
