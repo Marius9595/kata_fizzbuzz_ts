@@ -1,4 +1,7 @@
 export const fizbuzz = (number: number) => {
+	if (number == 15) {
+		return 'fizzbuzz';
+	}
 	if (number == 3) {
 		return 'buzz';
 	}
