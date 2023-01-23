@@ -11,5 +11,5 @@ export const fizbuzz = (number: number) => {
 	if (is_divisible_by_five) {
 		return 'fizz';
 	}
-	return 1;
+	return number;
 };
