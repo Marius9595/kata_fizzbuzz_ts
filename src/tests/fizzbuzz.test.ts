@@ -31,6 +31,6 @@ describe('Fizzbuzz should', () => {
 
 	it('not convert numbers that are not divisible by 5 or 3', () => {
 		const result = fizbuzz(7);
-		expect(result).toBe(7);
+		expect(result).toBe('7');
 	});
 });

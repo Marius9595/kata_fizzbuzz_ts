@@ -1,4 +1,4 @@
-export const fizbuzz = (number: number) => {
+export const fizbuzz = (number: number):string => {
 	const is_divisible_by_three = number % 3 == 0;
 	const is_divisible_by_five = number % 5 == 0;
 
@@ -11,5 +11,5 @@ export const fizbuzz = (number: number) => {
 	if (is_divisible_by_five) {
 		return 'fizz';
 	}
-	return number;
+	return number.toString();
 };
