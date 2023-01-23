@@ -43,4 +43,9 @@ describe('Fizzbuzz should', () => {
 		const result = fizbuzz(20);
 		expect(result).toBe('fizz');
 	});
+
+	it('convert any number divisible by 5 and 3 in "fizzbuzz"', () => {
+		const result = fizbuzz(30);
+		expect(result).toBe('fizzbuzz');
+	});
 });
