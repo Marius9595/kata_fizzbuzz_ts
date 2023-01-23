@@ -23,4 +23,9 @@ describe('Fizzbuzz should', () => {
 		const result = fizbuzz(3);
 		expect(result).toBe("buzz");
 	});
+
+	it('convert 5 in "fizz"', () => {
+		const result = fizbuzz(5);
+		expect(result).toBe("fizz");
+	});
 });
