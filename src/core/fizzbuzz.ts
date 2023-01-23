@@ -1,11 +1,14 @@
 export const fizbuzz = (number: number) => {
-	if (number % 3 == 0 && number % 5 == 0) {
+	const is_divisible_by_three = number % 3 == 0;
+	const is_divisible_by_five = number % 5 == 0;
+
+	if (is_divisible_by_three && is_divisible_by_five) {
 		return 'fizzbuzz';
 	}
-	if (number % 3 == 0) {
+	if (is_divisible_by_three) {
 		return 'buzz';
 	}
-	if (number % 5 == 0) {
+	if (is_divisible_by_five) {
 		return 'fizz';
 	}
 	return 1;
