@@ -38,4 +38,9 @@ describe('Fizzbuzz should', () => {
 		const result = fizbuzz(9);
 		expect(result).toBe('buzz');
 	});
+
+	it('convert any number divisible by 5 in "fizz"', () => {
+		const result = fizbuzz(20);
+		expect(result).toBe('fizz');
+	});
 });
